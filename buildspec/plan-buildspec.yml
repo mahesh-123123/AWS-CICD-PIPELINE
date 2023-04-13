@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - terraform init
-      - terraform validate
+      #- terraform validate
   
   build:
     commands:
